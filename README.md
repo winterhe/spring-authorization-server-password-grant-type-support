@@ -35,3 +35,10 @@ The Urls are also configure in application.proeprties file
 2) Already a user1 with password field is populated. Login with the user.
 3) There will be three grant types. Client Credentials, Authorization Code and Password.
 4) Click on password grant type and the result will come.
+
+./gradlew -b SpringAuthorizationServer/build.gradle bootRun
+./gradlew -b SpringResourceServer/build.gradle bootRun
+./gradlew -b SpringAuthorizationServerClient/build.gradle bootRun
+
+
+./gradlew -b build.gradle bootRun
